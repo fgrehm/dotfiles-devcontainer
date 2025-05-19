@@ -2,7 +2,7 @@
 
 cat <<-PATCH >> "${HOME}/.bashrc"
 
-# Better ls
+# Better ls, I don't know why this is not the default everywhere
 alias ll='ls -alFh'
 
 # Ruby stuff
