@@ -26,6 +26,7 @@ alias rc="bundle exec rails console"
 export DISABLE_SPRING=true
 
 # Git
+alias gpl="git pull"
 alias gs="git status"
 alias gr="git reset"
 alias gap="git add --patch"
