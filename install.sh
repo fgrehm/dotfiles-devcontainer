@@ -12,6 +12,10 @@ CONTENT=$(cat <<'EOF'
 # Better ls, I don't know why this is not the default everywhere
 alias ll='ls -alFh'
 
+# We don't have full blown vim on the container
+alias vim="vi"
+export EDITOR="vi"
+
 # Ruby stuff
 alias be="bundle exec"
 alias guard="bundle exec guard"
@@ -20,6 +24,15 @@ alias rc="bundle exec rails console"
 
 # Prevent spring annoyances
 export DISABLE_SPRING=true
+
+# Git
+alias gs="git status"
+alias gr="git reset"
+alias gap="git add --patch"
+alias gco="git checkout"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
 EOF
 )
 
