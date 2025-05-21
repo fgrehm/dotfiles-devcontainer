@@ -14,7 +14,10 @@ alias ll='ls -alFh'
 
 # We don't have full blown vim on the container
 alias vim="vi"
+
+# For editing within the container
 export EDITOR="vi"
+export GIT_EDITOR="vi"
 
 # Ruby stuff
 alias be="bundle exec"
