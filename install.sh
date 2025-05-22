@@ -29,10 +29,11 @@ alias rc="bundle exec rails console"
 export DISABLE_SPRING=true
 
 # Git
+alias ga="git add"
+alias gap="git add --patch"
 alias gpl="git pull"
 alias gs="git status"
 alias gr="git reset"
-alias gap="git add --patch"
 alias gco="git checkout"
 alias gd="git diff"
 alias gdc="git diff --cached"
