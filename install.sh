@@ -31,6 +31,8 @@ export DISABLE_SPRING=true
 # Git
 alias ga="git add"
 alias gap="git add --patch"
+alias gci="git commit -v"
+alias gp="git push"
 alias gpl="git pull"
 alias gs="git status"
 alias gr="git reset"
